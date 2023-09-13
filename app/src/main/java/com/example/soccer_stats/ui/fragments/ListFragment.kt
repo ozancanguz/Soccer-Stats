@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.soccer_stats.R
 import com.example.soccer_stats.databinding.FragmentListBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class ListFragment : Fragment() {
     private lateinit var binding: FragmentListBinding
 
